@@ -1,0 +1,162 @@
+/* Inserta tu codigo aqui */
+nav{
+	width: 100%;
+	height: 100px;
+}
+nav img{
+	width: 90px;
+	height: 90px;
+}
+nav ul{
+	width: 100%;
+	height: 40px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+li {
+	font-size: 16px;
+	display: inline;
+	text-align: center;
+	margin: 5px;
+	border-left: 2px solid black;
+	font-family: OpenSans-Regular;
+}
+li:first-child{
+	border-left: none;
+}
+li a{
+	padding:  2px 7px 2px 7px;
+	color: #666;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #9B6093;
+	color: #F4DEF4;
+}
+.semilla{
+	background-image: url("../img/semilla.jpg");
+	width:100%;
+	height:300px;
+	background-size: cover;
+	background-position:center;
+}
+.explica {
+	width: 100%;
+	height: 150px;
+	background-color: #F2F2F2;
+	font-family: OpenSans-Light;
+	text-align: center;
+	padding-top: 50px;
+}
+.misiovisi{
+	text-align: center;
+	padding: 50px 30px 30px 150px;
+}
+
+.fotometod .imag{
+	width: 50%;
+	height: 456px;
+	background-image: url("../img/metodo.jpg");
+	background-size: cover;
+}
+.fotometod .metod{
+	width: 50%;
+	height: 456px;
+	background-color: #437550;
+	font-family: OpenSans-Light;	
+}
+.fotometod img{
+
+}
+.servic{
+	font-family: "OpenSans-Light" Helvetica;
+	font-size: 12px;
+}
+.seiscirc .circulo{
+	margin : 20px;
+	padding: 10px  20px 120px 50px;
+	float: left;
+	width: 400px;
+	height: 400px;
+}
+.seiscirc .circulo:nth-child(4){
+	clear: both;
+}
+.proyect{
+background-color: #437550;
+width: 100%;
+height: 1000px;
+}
+.proyect img{
+	width: 100%;
+	height: 400px;
+}
+.proyect .fot{
+	padding-top: 100px;
+}
+.Txto .texto{
+	margin-top: 120px;
+	padding: 50px;
+	font-family: OpenSans-Light;
+	font-size:12px;
+}
+.equi h2{
+	color: #567F47;
+	font-family: OpenSans-Light;
+	padding-left: 90px;
+	padding-top: 70px;
+}
+.camiGaby {
+	border-radius: 100%;
+}
+.redes img{
+	margin-top: 40px;
+	margin-bottom: 80px;
+	width: 50px;
+	height: 50px;
+}
+section{
+	background-image: url("../img/fondo2.jpg");
+	background-size: cover;
+	height: 430px;
+}
+.blog img{
+	width: 100%;
+	height: 100%;
+}
+.blogg h1{
+	padding: 40px 50px 0px 0px;
+}
+.blog h1 {
+	padding-top: 0px;
+}
+.red{
+	width: 100%;
+	height: 400px;
+	background-color: #4D4D4D;
+	padding-left: 80px;
+}
+.cuadroRed{
+	width: 300px;
+	height: 300px;
+	border: 2px solid #F2F2F2;
+	display: inline-block;
+	padding: 0px;
+	margin: 40px -5px 0px 0px;
+}
+.cuadroRed img{
+	width: 25%;
+	height: 20%;
+	margin-left: 150px;
+	margin-top: 150px;
+}
+footer{
+	width: 100%;
+	height: 150px;
+	font-family: OpenSans-Bold;
+}
